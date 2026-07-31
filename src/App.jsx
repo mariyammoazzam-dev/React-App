@@ -1,32 +1,22 @@
+import "./App.css";
 
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-
-
-// sign up page 
 function App() {
   return (
-    <>
-      <section id="center">
-        
-        <div>
-          <h1>Maryam is working on KFC App</h1>
-          <p>
-          
-          </p>
-        </div>
-    
-    <p className='maryam-css' > I am learning new library React js</p>
-      </section>
+    <div className="container">
+      <form className="signup-form">
+        <h1>Sign Up</h1>
 
-      <div className="ticks"></div>
+        <input type="text" placeholder="Enter Name" />
+        <input type="email" placeholder="Enter Email" />
+        <input type="password" placeholder="Enter Password" />
+        <input type="password" placeholder="Confirm Password" />
 
-
-  
-    </>
-  )
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  );
 }
 
-export default App
+export default App;
+
+
