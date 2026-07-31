@@ -1,18 +1,10 @@
 import "./App.css";
+import SignUp from "./SignUP/Signup";
 
-function App() {
+const App =() =>{
   return (
     <div className="container">
-      <form className="signup-form">
-        <h1>Sign Up</h1>
-
-        <input type="text" placeholder="Enter Name" />
-        <input type="email" placeholder="Enter Email" />
-        <input type="password" placeholder="Enter Password" />
-        <input type="password" placeholder="Confirm Password" />
-
-        <button type="submit">Sign Up</button>
-      </form>
+        <SignUp/>
     </div>
   );
 }
