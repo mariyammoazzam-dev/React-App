@@ -1,7 +1,11 @@
 import "./SignUp.css";
 
-const SignUp =() =>{
+
+
+const SignUp =( data ) =>{
   return (
+    <>
+   
     <div className="container">
       <form className="signup-form">
         <h1>Sign Up</h1>
@@ -14,6 +18,8 @@ const SignUp =() =>{
         <button type="submit">Sign Up</button>
       </form>
     </div>
+    </>
+   
   );
 }
 
