@@ -17,3 +17,8 @@ Do not repeat Your self
 FUnctional Component
 Single Page Application SPA
 
+Actual DOM 
+Virtual DOM
+USE STATE HOOK
+Ternary Operator
+
