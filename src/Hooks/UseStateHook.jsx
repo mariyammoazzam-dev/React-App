@@ -17,25 +17,25 @@ const UseStateHook =() =>{
 
     const [ guestArrived, setGuestArrived] = useState( false); // boolean
 
-    const [fee, setFee]= useState("5000");
+    const [fee, setFee]= useState(5000);
 
-    const[marks,setMarks]= useState("75");
+    const[marks,setMarks]= useState(75);
 
-    const [salary, setSalary]= useState("32000");
+    const [salary, setSalary]= useState(32000);
 
-    const [rollnumber,setRollnumber]=useState("102");
+    const [rollnumber,setRollnumber]=useState(102);
 
-    const [books,setBooks]= useState("67");
+    const [books,setBooks]= useState(67);
 
-    const [attendance,setAttendance]=useState("54");
+    const [attendance,setAttendance]=useState(54);
 
-    const [classroom,setClassroom]= useState("17");
+    const [classroom,setClassroom]= useState(17);
 
-    const [quizattempts, setQuizAttempts]= useState("4");
+    const [quizattempts, setQuizAttempts]= useState(4);
 
-    const [courses,setCourses]=useState("8");
+    const [courses,setCourses]=useState(8);
 
-    const [kitchenArea,setKitchenArea]= useState("2000");
+    const [kitchenArea,setKitchenArea]= useState(2000);
 
 
 
@@ -62,64 +62,64 @@ const ageHandler = ()=>{
     };
        
      const feeHandler=()=>{
-        setFee("10000");
+        setFee(10000);
     };
 
     const marksHandler=()=>{
-        setMarks("90");
+        setMarks(90);
     };
 
     const salaryHandler=()=>{
-        setSalary("58000");
+        setSalary(58000);
     };
 
     const rollnumberHandler=()=>{
-        setRollnumber("113");
+        setRollnumber(113);
     };
 
     const booksHandler=()=>{
-        setBooks("books+1");
+        setBooks(books+1);
     };
 
     const attendanceHandler=()=>{
-        setAttendance("78");
+        setAttendance(78);
     };
 
     const classroomHandler=()=>{
-        setClassroom("20");
+        setClassroom(20);
         console.log("VERIFY HERE", classroom)
         if(classroom){
             console.log("IF")
-            setClassroom("15")
+            setClassroom(15)
         }else{
             console.log("ELSE")
-            setClassroom("19")
+            setClassroom(19)
         }
     };
 
     const quizHandler=()=>{
-        setQuizAttempts("10")
+        setQuizAttempts(10)
     };
 
     const coursesHandler=()=>{
-        setCourses("25")
+        setCourses(25)
         console.log("CHECK HERE", courses)
         if(courses){
             console.log("IF")
-            setCourses("6")
+            setCourses(6)
         }else{
             console.log("ELSE")
-            setCourses("17")
+            setCourses(17)
     };
 };
 
 const kitchenAreaHandler=()=>{
-    setKitchenArea("3500")
+    setKitchenArea(3500)
 };
 
 
 
-    // we will use tenrary operator
+    // we will use ternary operator
     console.log("age enkdshkjvhfdjvbhnbvfmnbvfdmn",age );
     console.log("NAME =====>>>>>>", name);
     console.log("guest", guestArrived)
@@ -189,21 +189,21 @@ return (
             {
               classroom ?(
                 <>
-                <h4>"Students entered in classroom"</h4>
+                <h4>Students entered in classroom</h4>
                 </>
               )
                 :(
-                    <h5>"Waiting for students"</h5>
+                    <h5>Waiting for students</h5>
                 )
             }
          {
            courses ?(
             <>
-            <h5>"Students has enrolled in many courses"</h5>
+            <h5>Students has enrolled in many courses</h5>
 </>
            )
            :(
-            <h4>"Students should enroll in more courses"</h4>
+            <h4>Students should enroll in more courses</h4>
            )
 }
 
@@ -212,10 +212,9 @@ return (
 
              <button onClick={ageHandler}> Click Age</button>
 
-              <button onClick={nameHandler}> click Name </button>
+            <button onClick={nameHandler}> click Name </button>
 
-
-              <button onClick={guestHandler}> click guest</button>
+           <button onClick={guestHandler}> click guest</button>
 
               <button onClick={feeHandler}>click Fee</button>
 

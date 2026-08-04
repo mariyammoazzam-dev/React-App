@@ -37,8 +37,7 @@ const LibraryInfo = ({ libraryName, librarian, timing, books }) => {
       {books}{" "}
     </p>
   );
-};
-
+}
 const SubjectInfo = ({ subjectName, teacher, marks }) => {
   return (
     <p>
