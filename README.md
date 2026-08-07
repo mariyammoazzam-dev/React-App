@@ -21,4 +21,15 @@ Actual DOM
 Virtual DOM
 USE STATE HOOK
 Ternary Operator
+Use Effect
+
+
+Chezious APP
+
+LOgin 
+Sign UP
+NAv BAR
+MAIN PIZZA/BURGER PAGE
+
+Footer
 
